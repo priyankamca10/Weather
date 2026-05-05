@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #5f9cff, #a66cff);
+}
+
+.card {
+    width: 320px;
+    padding: 25px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    color: white;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.search button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #333;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search button:hover {
+    background: #ddd;
+}
+
+.weather-box {
+    margin-top: 15px;
+}
+
+.temp {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
